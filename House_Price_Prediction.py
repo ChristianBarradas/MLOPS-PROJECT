@@ -21,7 +21,7 @@ from tensorflow.keras.optimizers import Adam
 from sklearn.metrics import mean_squared_error,mean_absolute_error,explained_variance_score
 from sklearn.metrics import classification_report,confusion_matrix
 
-print("hola mundo")
+
 df = pd.read_csv('/Users/SISTEMAS/MLOPs_Project/DataSet/kc_house_data.csv')
 print(df)
 print(df.columns.values)
