@@ -3,8 +3,8 @@ Open Command Prompt: Press Win + R, type cmd, and press Enter to open the Comman
 
 Navigate to Desired Directory: Use the cd command to navigate to the directory where you want to create your virtual environment. For example:
 bash
-
 cd path\to\desired\directory
+
 Create Virtual Environment: Use the python -m venv command to create a new virtual environment. Replace venv_name with the name you want for your virtual environment:
 
 python -m venv venv_name
