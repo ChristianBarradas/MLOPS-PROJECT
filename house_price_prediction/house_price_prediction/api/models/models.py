@@ -1,40 +1,47 @@
 from pydantic import BaseModel
 
 
-class Titanic(BaseModel):
+class HousePricePrediction (BaseModel):
     """
-    Represents a passenger on the Titanic with various attributes.
-    
+    Representa los atributos para poder realizar el pronostico del precio de la casa
     Attributes:
-        pclass_nan (float): Placeholder for missing values in 'pclass' attribute.
-        age_nan (float): Placeholder for missing values in 'age' attribute.
-        sibsp_nan (float): Placeholder for missing values in 'sibsp' attribute.
-        parch_nan (float): Placeholder for missing values in 'parch' attribute.
-        fare_nan (float): Placeholder for missing values in 'fare' attribute.
-        sex_male (float): Placeholder for 'sex' attribute being male.
-        cabin_Missing (float): Placeholder for 'cabin' attribute being missing.
-        cabin_rare (float): Placeholder for 'cabin' attribute being rare.
-        embarked_Q (float): Placeholder for 'embarked' attribute being Queenstown.
-        embarked_S (float): Placeholder for 'embarked' attribute being Southampton.
-        title_Mr (float): Placeholder for 'title' attribute being Mr.
-        title_Mrs (float): Placeholder for 'title' attribute being Mrs.
-        title_rar (float): Placeholder for 'title' attribute being rare.
+        bedrooms
+        bathrooms
+        sqft_living
+        sqft_lot
+        floors
+        waterfront
+        view
+        condition
+        grade
+        sqft_above
+        sqft_basement
+        yr_built
+        yr_renovated
+        lat
+        long
+        sqft_living15
+        sqft_lot15
+        month
+        year
     """
 
-    pclass_nan: float
-    age_nan: float
-    sibsp_nan: float
-    parch_nan: float
-    fare_nan: float
-    sex_male: float
-    cabin_Missing: float
-    cabin_rare: float
-    embarked_Q: float
-    embarked_S: float
-    title_Mr: float
-    title_Mrs: float
-    title_rar: float
-    
-    
-
-
+    bedrooms: float
+    bathrooms: float
+    sqft_living: float
+    sqft_lot: float
+    floors: float
+    waterfront: float
+    view: float
+    condition: float
+    grade: float
+    sqft_above: float
+    sqft_basement: float
+    yr_built: float
+    yr_renovated: float
+    lat: float
+    long: float
+    sqft_living15: float
+    sqft_lot15: float
+    month: float
+    year: float
