@@ -2,6 +2,13 @@ Predicting House Prices
 
 El objetivo de este modelo es predecir los precios futuros de la vivienda en base a características como pies cuadrados, baños, dormitorios, vistas y otras, vamos a construir un modelo de aprendizaje profundo que pueda predecir el precio futuro de las casas, que pueda ser consumido mediante un API
 
+El alcance del proyecto: 
+
+Crear con una línea base
+ Crear un notebook con la solución del modelo que presente las distintas etapas para poder exponer el predictor del moldeo mediante un API.
+Factorizar el anterior notebook para crear un archivo main que contenga las dependencias necesarias de las etapas Predict, Models, Preprocess, load, Train y Data.
+Exponer la solución del modelo mediante un API, en la cual se pueda capturar información con baños, dormitorios, baños etc. y puede regresar la predicción del precio de las casas.
+
 Dataset
 
 Este conjunto de datos contiene precios de venta de casas para el condado de King, que incluye a Seattle. Incluye viviendas vendidas entre mayo de 2014 y mayo de 2015. 
@@ -32,5 +39,6 @@ long: Longitud
 sqft_living15: Los pies cuadrados de espacio habitable de vivienda interior para los 15 vecinos más cercanos
 sqft_lot15: Los pies cuadrados de los lotes de terreno de los 15 vecinos más cercanos
 
+Actualmente se cuenta con un notebook que muestra una de las soluciones basada en una red neuronal ANN. Este problema también puede ser resuelto mediante distintos algoritmos como K-NN, Regresión Logística, Regresión Múltiple entre otros. 
 
-
+El resultado final del proyecto, es poder realizar predicciones del precio de casas basado en información como, código postal, número de baños, latitud, longitud etc.
