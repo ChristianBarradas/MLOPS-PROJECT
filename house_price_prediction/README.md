@@ -1,4 +1,4 @@
-# Virtual Environments in Widows
+### Virtual Environments in Widows
 Open Command Prompt: Press Win + R, type cmd, and press Enter to open the Command Prompt.
 
 Navigate to Desired Directory: Use the cd command to navigate to the directory where you want to create your virtual environment. For example:
@@ -25,7 +25,7 @@ Remember to replace venv_name with the desired name of your virtual environment 
 Please note that if you're using Python 3.3 or later, the venv module is included by default in the standard library. If you're using an older version of Python, you might need to install the virtualenv package using pip and use virtualenv command instead of python -m venv.
 
 
-# Virtual Environments in Linux
+### Virtual Environments in Linux
 Open Terminal: Open a terminal window. You can usually find the terminal in your system's applications or by searching for "Terminal."
 
 Navigate to Desired Directory: Use the cd command to navigate to the directory where you want to create your virtual environment. For example:
