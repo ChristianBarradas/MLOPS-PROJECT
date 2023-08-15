@@ -1,44 +1,44 @@
-Predicting House Prices
+## House Price Prediction
 
-El objetivo de este modelo es predecir los precios futuros de la vivienda en base a características como pies cuadrados, baños, dormitorios, vistas y otras, vamos a construir un modelo de aprendizaje profundo que pueda predecir el precio futuro de las casas, que pueda ser consumido mediante un API
+The goal of this model is to predict future house prices based on characteristics such as square footage, bathrooms, bedrooms, views, and others, we are going to build a deep learning model that can predict the future price of houses, which can be consumed through an API.
 
-El alcance del proyecto: 
+## The scope of the project:
 
-Crear con una línea base
- Crear un notebook con la solución del modelo que presente las distintas etapas para poder exponer el predictor del moldeo mediante un API.
-Factorizar el anterior notebook para crear un archivo main que contenga las dependencias necesarias de las etapas Predict, Models, Preprocess, load, Train y Data.
-Exponer la solución del modelo mediante un API, en la cual se pueda capturar información con baños, dormitorios, baños etc. y puede regresar la predicción del precio de las casas.
+Create with a baseline
+   Create a model solution notebook that presents the different steps to expose the molding predictor through an API.
+Factor the above notebook to create a main file that contains the necessary dependencies of the Predict, Models, Preprocess, load, Train, and Data stages.
+Expose the model solution through an API, in which information can be captured with bathrooms, bedrooms, bathrooms, etc. and can return the house price prediction.
 
-Dataset
+## Data set
 
-Este conjunto de datos contiene precios de venta de casas para el condado de King, que incluye a Seattle. Incluye viviendas vendidas entre mayo de 2014 y mayo de 2015. 
-21 columnas. 
-21597 filas.
+This dataset contains home sales prices for King County, which includes Seattle. Includes homes sold between May 2014 and May 2015.
+21 columns.
+21597 rows.
 
-Feature
+## Characteristic
 
-id: Identificación única para cada casa vendida
-date: Fecha de la venta de la casa
-price: Precio de cada vivienda vendida
-bedrooms: Número de dormitorios
-bathrooms: número de baños, donde 0,5 representa una habitación con inodoro pero sin ducha
-sqft_living: pies cuadrados del espacio habitable interior de los apartamentos
-sqft_lot: Pies cuadrados del espacio del terreno
-floors: Número de plantas
-waterfront: - Una variable ficticia para saber si el apartamento tiene vistas al paseo marítimo o no.
-view: un índice de 0 a 4 de qué tan buena fue la vista de la propiedad
-condition: - Un índice del 1 al 5 sobre el estado del apartamento,
-grade: Un índice de 1 a 13, donde 1-3 no alcanza la construcción y el diseño de edificios, 7 tiene un nivel medio de construcción y diseño, y 11-13 tiene un nivel de construcción y diseño de alta calidad.
-sqft_above: los pies cuadrados del espacio interior de la vivienda que está sobre el nivel del suelo
-sqft_basement: los pies cuadrados del espacio interior de la vivienda que está por debajo del nivel del suelo
-yr_built: el año en que se construyó inicialmente la casa
-yr_renovated: El año de la última reforma de la casa
-zipcode: en qué área de código postal se encuentra la casa
-lat: latitud
-long: Longitud
-sqft_living15: Los pies cuadrados de espacio habitable de vivienda interior para los 15 vecinos más cercanos
-sqft_lot15: Los pies cuadrados de los lotes de terreno de los 15 vecinos más cercanos
+id: Unique identification for each house sold
+date: Date of the sale of the house
+price: Price of each home sold
+bedrooms: Number of bedrooms
+bathroom: number of bathrooms, where 0.5 represents a room with a toilet but no shower
+sqft_living: square footage of the interior living space of the apartments
+sqft_lot: Square feet of lot space
+floors: Number of floors
+facing the sea: - A dummy variable to know if the apartment has views of the seafront or not.
+view: an index from 0 to 4 of how good the view of the property was
+condition: - An index from 1 to 5 on the state of the apartment,
+grade: An index of 1 to 13, where 1-3 falls short of building construction and design, 7 has a medium level of construction and design, and 11-13 has a high quality construction and design level.
+sqft_above – The square footage of the interior space of the home that is above ground level
+sqft_basement – The square footage of the interior space of the home that is below ground level
+yr_built: the year the house was initially built
+yr_renovated: The year the house was last renovated
+zipcode: in which zip code area the house is located
+lat: latitude
+long: Length
+sqft_living15: The square feet of interior living space for the 15 nearest neighbors
+sqft_lot15: The square footage of the 15 nearest neighbor lots
 
-Actualmente se cuenta con un notebook que muestra una de las soluciones basada en una red neuronal ANN. Este problema también puede ser resuelto mediante distintos algoritmos como K-NN, Regresión Logística, Regresión Múltiple entre otros. 
+Currently there is a notebook that shows one of the solutions based on an ANN neural network. This problem can also be solved by different algorithms such as K-NN, Logistic Regression, Multiple Regression among others.
 
-El resultado final del proyecto, es poder realizar predicciones del precio de casas basado en información como, código postal, número de baños, latitud, longitud etc.
+The final result of the project is to be able to make house price predictions based on information such as zip code, number of bathrooms, latitude, longitude, etc.
